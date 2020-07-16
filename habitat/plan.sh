@@ -53,7 +53,7 @@ pkg_shasum="TODO"
 # An array of package dependencies needed at runtime. You can refer to packages
 # at three levels of specificity: `origin/package`, `origin/package/version`, or
 # `origin/package/version/release`.
-pkg_deps=(core/glibc core/imagemagick)
+pkg_deps=(core/glibc effortless-lrh/imagemagick)
 
 # Optional.
 # An array of the package dependencies needed only at build time.
